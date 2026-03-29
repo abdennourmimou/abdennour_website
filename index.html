@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Abdennour Website | Content Creator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <img src="Abdennour_logo.png/Abdennour_logo (1) (1) (1).png" class="logo" alt="Abdennour Logo">                    
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#myVideos">My Videos</a></li>
+                <li><a href="#contactMe">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <hr>
+
+    <section class="hero" id="home">
+        <div class="herosub">
+            <h1 class="name">I'm Abdennour</h1>
+            <h1 class="title">Content Creator</h1>
+            <div class="heroBtns">
+                <a class="ContactMe" href="#contactMe">Contact Me</a>
+                <a class="ContactMe" href="https://www.youtube.com/channel/UCij_4ML9eRiA-eE5f_Lko1A?sub_confirmation=1" target="_blank" style="display: inline-flex; align-items: center; gap: 10px;">
+                    <span style="color: #FF0000;">▶</span> Subscribe to my channel
+                </a>
+            </div>
+        </div>
+        <img src="Abdennour_section.png/section.png" alt="hero Image" class="heroImg">
+    </section>
+
+    <section class="aboutMe" id="aboutMe">
+        <img src="About Me_sectoin.png/About Me sction.png" alt="aboutMe image" class="aboutMeImg">
+        <div class="taxtcontainer">
+            <div class="taxtTitle">
+                <h1 class="aboutName">About</h1>
+                <h1 class="aboutTitle">me</h1>  
+            </div>
+            <p class="aboutMePar">
+                Hey! Welcome to My Official Website. I'm Abdennour, Content Creator and Web Developer.
+                My journey into the digital world began with a deep curiosity about how technology shapes our daily lives. As a Web Developer, I focus on turning complex code into seamless user experiences using HTML and CSS. I strive to build modern, responsive websites that don't just look good, but feel alive through smooth interactions and intuitive design.
+                On the creative side, I am a dedicated Content Creator with a sharp focus on the tech industry. Whether I'm reviewing the latest flagship smartphones or sharing coding insights, my goal is to provide value to a growing community of tech enthusiasts. I am proud to have reached a milestone of 100 subscribers on my channel as of January 12 2025, and I am constantly pushing for more growth and higher quality content.
+            </p>
+        </div>
+    </section>
+
+    <section class="my-videos-section" id="myVideos">
+        <div class="video-header">
+            <h1 class="aboutName">My Latest</h1>
+            <h1 class="aboutTitle">Videos</h1>
+        </div>
+
+        <div class="videos-display-container">
+            <div class="main-person-photo">
+                <img src="My videos_section.png/My videos.png" alt="Profile Image">
+            </div>
+
+            <div class="side-videos-column">
+                <div class="single-video-card">
+                    <a href="https://youtu.be/qxP4I4Nazac?si=klis5QYMBqG8OMh-" target="_blank">
+                        <img src="Videos_section.png/video1.png.png" alt="Video 1 Thumbnail">
+                    </a>
+                </div>
+                <div class="single-video-card">
+                    <a href="https://youtu.be/9gA7Y_Z3trA?si=B59_BxR01e2WoFdT" target="_blank">
+                        <img src="Videos_section.png/video2.png.png" alt="Video 2 Thumbnail">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contactMe">
+        <div class="video-header">
+            <h1 class="aboutName">Contact</h1>
+            <h1 class="aboutTitle">Me</h1>
+        </div>
+
+        <div class="contact-container" style="margin-top: 2rem;">
+            <form class="contact-form" action="https://formspree.io/f/mqegpywp" method="POST">
+                <div class="input-row" style="display: flex; gap: 20px; margin-bottom: 20px;">
+                    <input type="text" name="name" placeholder="Your Name" required style="flex: 1;">
+                    <input type="email" name="email" placeholder="Your Email" required style="flex: 1;">
+                </div>
+                <textarea name="message" placeholder="Your Message" rows="5" required style="width: 100%; margin-bottom: 20px;"></textarea>
+                <button type="submit" class="ContactMe" style="cursor: pointer; border: none;">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3 style="color: darkslategray; margin-top: 2rem; margin-bottom: 1rem;">Let's Connect!</h3>
+                <p>I'm always open to discussing web development projects or tech partnerships.</p>
+                
+                <div style="margin: 1.5rem 0;">
+                    <p style="font-weight: bold; color: #333; margin-bottom: 5px;">Email Me:</p>
+                    <a href="mailto:abdennourmimou4@gmail.com" style="color: cadetblue; text-decoration: none; font-weight: bold;">
+                        abdennourmimou4@gmail.com
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.youtube.com/channel/UCij_4ML9eRiA-eE5f_Lko1A" target="_blank" class="social-icon" style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 15px; text-decoration: none; display: inline-block; margin-right: 10px;">YouTube</a>
+                    <a href="https://x.com/Abdennourmimou" target="_blank" class="social-icon" style="background-color: #000; color: white; padding: 10px 20px; border-radius: 15px; text-decoration: none; display: inline-block;">Twitter (X)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 2rem; color: #777;">
+        <p>&copy; 2026 Abdennour Mimou. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
